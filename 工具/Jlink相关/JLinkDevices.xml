@@ -1,7 +1,7 @@
 <DataBase>
   <Device>
-   <ChipInfo Vendor="ATMEL" Name="ATSAMA5D27" Core="JLINK_CORE_CORTEX_A5" WorkRAMAddr="0x00200000" WorkRAMSize="0x00020000" JLinkScriptFile="Devices/ATMEL/SAMA5D2.JLinkScript" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0xD0000000" MaxSize="0x02000000" Loader="Devices/ATMEL/SAMA5D2/SAMA5D2XPLAINED_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ATMEL" Name="ATSAMA5D27" Core="JLINK_CORE_CORTEX_A5" WorkRAMAddr="0x00200000" WorkRAMSize="0x00020000" JLinkScriptFile="Devices/ATMEL/SAMA5D2.JLinkScript" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0xD0000000" MaxSize="0x02000000" Loader="Devices/ATMEL/SAMA5D2/SAMA5D2XPLAINED_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
     <ChipInfo Vendor="Broadcom" Name="BCM43907" Core="JLINK_CORE_CORTEX_R4" JLinkScriptFile="Devices/Broadcom/BCM43907.JLinkScript" />
@@ -14,148 +14,148 @@
     <ChipInfo Vendor="Cypress" Name="CYW43907" Core="JLINK_CORE_CORTEX_R4" JLinkScriptFile="Devices/Broadcom/BCM43907.JLinkScript" />
   </Device>
   <Device>
-   <ChipInfo Vendor="Cypress" Name="S6J328CK" Core="JLINK_CORE_CORTEX_R5" JLinkScriptFile="Devices/Cypress/Cypress_S6J328.pex" />
+    <ChipInfo Vendor="Cypress" Name="S6J328CK" Core="JLINK_CORE_CORTEX_R5" JLinkScriptFile="Devices/Cypress/Cypress_S6J328.pex" />
   </Device>
   <Device>
-   <ChipInfo Vendor="Cypress" Name="S6J328CL" Core="JLINK_CORE_CORTEX_R5" JLinkScriptFile="Devices/Cypress/Cypress_S6J328.pex" />
+    <ChipInfo Vendor="Cypress" Name="S6J328CL" Core="JLINK_CORE_CORTEX_R5" JLinkScriptFile="Devices/Cypress/Cypress_S6J328.pex" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Microchip" Name="CEC1702"  WorkRAMAddr="0x000B0000" WorkRAMSize="0x68000" Core="JLINK_CORE_CORTEX_M4" />
+    <ChipInfo Vendor="Microchip" Name="CEC1702" WorkRAMAddr="0x000B0000" WorkRAMSize="0x68000" Core="JLINK_CORE_CORTEX_M4" />
     <FlashBankInfo Name="SPI Flash" BaseAddr="0x60000000" MaxSize="0x200000" Loader="Devices/Microchip/CEC1702/Microchip_CEC1702_Clicker_QSPI_ES.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33L01x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/FMSH/FM33xx/FM33L01X_FLASH64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  <!--                -->
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33L01x" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/FMSH/FM33xx/FM33L01X_FLASH64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33L02x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33L02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33L02x" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33L02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <!--                -->
   <!-- FMSH Devices -->
   <!--                -->
   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33A02xx"   WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33A0XX_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33A02xx" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33A0XX_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33A03xx"   WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x30000" Loader="Devices/FMSH/FM33xx/FM33A0XX_FLASH192.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33A03xx" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x30000" Loader="Devices/FMSH/FM33xx/FM33A0XX_FLASH192.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33A04xx"   WorkRAMAddr="0x20000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33A0XX_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33A04xx" WorkRAMAddr="0x20000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33A0XX_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33A05xx"   WorkRAMAddr="0x20000000" WorkRAMSize="0xC000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x60000" Loader="Devices/FMSH/FM33xx/FM33A0XX_FLASH384.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-    <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33A06xx"   WorkRAMAddr="0x20000000" WorkRAMSize="0x10000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x80000" Loader="Devices/FMSH/FM33xx/FM33A0XX_FLASH512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33G02x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33G02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33G04x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x6000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33G04X_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33L01x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/FMSH/FM33xx/FM33L01X_FLASH64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33L02x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33L02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33A05xx" WorkRAMAddr="0x20000000" WorkRAMSize="0xC000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x60000" Loader="Devices/FMSH/FM33xx/FM33A0XX_FLASH384.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33LC01x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/FMSH/FM33xx/FM33LC01X_FLASH64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33LC02x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x6000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33LC02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33LC04x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x6000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33LC04X_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33A04xEV"   WorkRAMAddr="0x20000000" WorkRAMSize="0xC000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33A04XEX_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33A06xEV"   WorkRAMAddr="0x20000000" WorkRAMSize="0x14000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x80000" Loader="Devices/FMSH/FM33xx/FM33A06XEX_FLASH512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33A06xx" WorkRAMAddr="0x20000000" WorkRAMSize="0x10000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x80000" Loader="Devices/FMSH/FM33xx/FM33A0XX_FLASH512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33A04xER"   WorkRAMAddr="0x20000000" WorkRAMSize="0xC000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33A04XEX_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33A06xER"   WorkRAMAddr="0x20000000" WorkRAMSize="0x14000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x80000" Loader="Devices/FMSH/FM33xx/FM33A06XEX_FLASH512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33M02x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33M0XX_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33M04x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33M0XX_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33LG01x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/FMSH/FM33xx/FM33LG01X_FLASH64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33LG02x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33LG02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33G02x" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33G02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33LG04x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33LG04X_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33FR02x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33FR02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-	<FlashBankInfo Name="DataFlash Block " BaseAddr="0xA0000000" MaxSize="0x2000" Loader="Devices/FMSH/FM33xx/FM33FR0XX_DATAFLASH8.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33G04x" WorkRAMAddr="0x20000000" WorkRAMSize="0x6000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33G04X_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33FR04x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x6000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33FR04X_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-	<FlashBankInfo Name="DataFlash Block " BaseAddr="0xA0000000" MaxSize="0x2000" Loader="Devices/FMSH/FM33xx/FM33FR0XX_DATAFLASH8.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>  
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33FR05x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x60000" Loader="Devices/FMSH/FM33xx/FM33FR05X_FLASH384.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-	<FlashBankInfo Name="DataFlash Block " BaseAddr="0xA0000000" MaxSize="0x2000" Loader="Devices/FMSH/FM33xx/FM33FR0XX_DATAFLASH8.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>   
-    <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33LE01x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/FMSH/FM33xx/FM33LE01X_FLASH64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33LE02x"   WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33LE02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device> 
-  <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33A04xEVB"   WorkRAMAddr="0x20000000" WorkRAMSize="0xC000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33A04XEVB_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33L01x" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/FMSH/FM33xx/FM33L01X_FLASH64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="FMSH Devices" Name="FM33A06xEVB"   WorkRAMAddr="0x20000000" WorkRAMSize="0xC000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x80000" Loader="Devices/FMSH/FM33xx/FM33A06XEVB_FLASH512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device> 
+    <ChipInfo Vendor="FMSH Devices" Name="FM33L02x" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33L02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33LC01x" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/FMSH/FM33xx/FM33LC01X_FLASH64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33LC02x" WorkRAMAddr="0x20000000" WorkRAMSize="0x6000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33LC02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33LC04x" WorkRAMAddr="0x20000000" WorkRAMSize="0x6000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33LC04X_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33A04xEV" WorkRAMAddr="0x20000000" WorkRAMSize="0xC000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33A04XEX_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33A06xEV" WorkRAMAddr="0x20000000" WorkRAMSize="0x14000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x80000" Loader="Devices/FMSH/FM33xx/FM33A06XEX_FLASH512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33A04xER" WorkRAMAddr="0x20000000" WorkRAMSize="0xC000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33A04XEX_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33A06xER" WorkRAMAddr="0x20000000" WorkRAMSize="0x14000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x80000" Loader="Devices/FMSH/FM33xx/FM33A06XEX_FLASH512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33M02x" WorkRAMAddr="0x20000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33M0XX_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33M04x" WorkRAMAddr="0x20000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33M0XX_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33LG01x" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/FMSH/FM33xx/FM33LG01X_FLASH64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33LG02x" WorkRAMAddr="0x20000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33LG02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33LG04x" WorkRAMAddr="0x20000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33LG04X_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33FR02x" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33FR02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="DataFlash Block " BaseAddr="0xA0000000" MaxSize="0x2000" Loader="Devices/FMSH/FM33xx/FM33FR0XX_DATAFLASH8.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33FR04x" WorkRAMAddr="0x20000000" WorkRAMSize="0x6000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33FR04X_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="DataFlash Block " BaseAddr="0xA0000000" MaxSize="0x2000" Loader="Devices/FMSH/FM33xx/FM33FR0XX_DATAFLASH8.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33FR05x" WorkRAMAddr="0x20000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x60000" Loader="Devices/FMSH/FM33xx/FM33FR05X_FLASH384.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="DataFlash Block " BaseAddr="0xA0000000" MaxSize="0x2000" Loader="Devices/FMSH/FM33xx/FM33FR0XX_DATAFLASH8.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33LE01x" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/FMSH/FM33xx/FM33LE01X_FLASH64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33LE02x" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/FMSH/FM33xx/FM33LE02X_FLASH128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33A04xEVB" WorkRAMAddr="0x20000000" WorkRAMSize="0xC000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/FMSH/FM33xx/FM33A04XEVB_FLASH256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="FMSH Devices" Name="FM33A06xEVB" WorkRAMAddr="0x20000000" WorkRAMSize="0xC000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="Flash Block " BaseAddr="0x00000000" MaxSize="0x80000" Loader="Devices/FMSH/FM33xx/FM33A06XEVB_FLASH512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
   <!--      -->
   <!-- NXP  -->
-  <!--      -->  
-  
+  <!--      -->
   <!--        -->
   <!-- iMX6SX -->
-  <!--        -->  
+  <!--        -->
   <Device>
     <ChipInfo Vendor="NXP" Name="MCIMX6X1_A9" WorkRAMAddr="0x00900000" WorkRAMSize="0x00020000" Core="JLINK_CORE_CORTEX_A9" JLinkScriptFile="Devices/NXP/iMX6SX/iMX6SX_CortexA9.JLinkScript" />
     <FlashBankInfo Name="QSPI Flash" BaseAddr="0x70000000" MaxSize="0x02000000" Loader="Devices/NXP/iMX6SX/NXP_iMX6SX_SABRE_Board_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
@@ -256,21 +256,21 @@
   <!-- iMX7ULP -->
   <!--         -->
   <Device>
-    <ChipInfo Vendor="NXP" Name="MCIMX7U3_M4"  WorkRAMAddr="0x20000000" WorkRAMSize="0x00010000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/NXP/iMX7ULP/NXP_iMX7ULP_CortexM4.JLinkScript" />
+    <ChipInfo Vendor="NXP" Name="MCIMX7U3_M4" WorkRAMAddr="0x20000000" WorkRAMSize="0x00010000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/NXP/iMX7ULP/NXP_iMX7ULP_CortexM4.JLinkScript" />
     <FlashBankInfo Name="QSPI Flash" BaseAddr="0x04000000" MaxSize="0x08000000" Loader="Devices/NXP/iMX7ULP/NXP_iMX7ULP_BB_M4_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-    <ChipInfo Vendor="NXP" Name="MCIMX7U3_A7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00010000" Core="JLINK_CORE_CORTEX_A7" JLinkScriptFile="Devices/NXP/iMX7ULP/NXP_iMX7ULP_CortexA7.JLinkScript"/>
+    <ChipInfo Vendor="NXP" Name="MCIMX7U3_A7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00010000" Core="JLINK_CORE_CORTEX_A7" JLinkScriptFile="Devices/NXP/iMX7ULP/NXP_iMX7ULP_CortexA7.JLinkScript" />
     <FlashBankInfo Name="QSPI Flash" BaseAddr="0xC0000000" MaxSize="0x10000000" Loader="Devices/NXP/iMX7ULP/NXP_iMX7ULP_BB_A7_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-    <ChipInfo Vendor="NXP" Name="MCIMX7U5_M4"  WorkRAMAddr="0x20000000" WorkRAMSize="0x00010000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/NXP/iMX7ULP/NXP_iMX7ULP_CortexM4.JLinkScript" />
+    <ChipInfo Vendor="NXP" Name="MCIMX7U5_M4" WorkRAMAddr="0x20000000" WorkRAMSize="0x00010000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/NXP/iMX7ULP/NXP_iMX7ULP_CortexM4.JLinkScript" />
     <FlashBankInfo Name="QSPI Flash" BaseAddr="0x04000000" MaxSize="0x08000000" Loader="Devices/NXP/iMX7ULP/NXP_iMX7ULP_BB_M4_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-    <ChipInfo Vendor="NXP" Name="MCIMX7U5_A7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00010000" Core="JLINK_CORE_CORTEX_A7" JLinkScriptFile="Devices/NXP/iMX7ULP/NXP_iMX7ULP_CortexA7.JLinkScript"/>
+    <ChipInfo Vendor="NXP" Name="MCIMX7U5_A7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00010000" Core="JLINK_CORE_CORTEX_A7" JLinkScriptFile="Devices/NXP/iMX7ULP/NXP_iMX7ULP_CortexA7.JLinkScript" />
     <FlashBankInfo Name="QSPI Flash" BaseAddr="0xC0000000" MaxSize="0x10000000" Loader="Devices/NXP/iMX7ULP/NXP_iMX7ULP_BB_A7_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
-  </Device>  
+  </Device>
   <!--       -->
   <!-- iMXRT -->
   <!--       -->
@@ -313,7 +313,7 @@
   <Device>
     <ChipInfo Vendor="NXP" Name="LPC54114J256_M0" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/NXP/LPC5411x/LPC5411x_M0.JLinkScript" />
   </Device>
-<!-- RZ/N1D: 2x Cortex-A7, 1x Cortex-M3  -->
+  <!-- RZ/N1D: 2x Cortex-A7, 1x Cortex-M3  -->
   <Device>
     <ChipInfo Vendor="Renesas" Name="R9A06G032" Core="JLINK_CORE_CORTEX_A7" JLinkScriptFile="Devices/Renesas/RZN1/Renesas_RZN1_Cortex-A7_CPU0.pex" />
   </Device>
@@ -326,7 +326,7 @@
   <Device>
     <ChipInfo Vendor="Renesas" Name="R9A06G032_M3" Core="JLINK_CORE_CORTEX_M3" JLinkScriptFile="Devices/Renesas/RZN1/Renesas_RZN1_Cortex-M3.pex" />
   </Device>
-<!-- RZ/N1S: 1x Cortex-A7, 1x Cortex-M3  -->
+  <!-- RZ/N1S: 1x Cortex-A7, 1x Cortex-M3  -->
   <Device>
     <ChipInfo Vendor="Renesas" Name="R9A06G033" Core="JLINK_CORE_CORTEX_A7" JLinkScriptFile="Devices/Renesas/RZN1/Renesas_RZN1_Cortex-A7_CPU0.pex" />
   </Device>
@@ -336,7 +336,7 @@
   <Device>
     <ChipInfo Vendor="Renesas" Name="R9A06G033_M3" Core="JLINK_CORE_CORTEX_M3" JLinkScriptFile="Devices/Renesas/RZN1/Renesas_RZN1_Cortex-M3.pex" />
   </Device>
-<!-- RZ/N1L: 1x Cortex-M3  -->
+  <!-- RZ/N1L: 1x Cortex-M3  -->
   <Device>
     <ChipInfo Vendor="Renesas" Name="R9A06G034" Core="JLINK_CORE_CORTEX_M3" JLinkScriptFile="Devices/Renesas/RZN1/Renesas_RZN1_Cortex-M3.pex" />
   </Device>
@@ -345,317 +345,317 @@
   <!--     -->
   <Device>
     <ChipInfo Vendor="TI" Name="CC3200" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/TI/TI_CC3200.JLinkScript" WorkRAMAddr="0x20000000" WorkRAMSize="0x10000" />
-  </Device> 
+  </Device>
   <Device>
     <ChipInfo Vendor="TI" Name="DM3730" Core="JLINK_CORE_CORTEX_A8" JLinkScriptFile="Devices/TI/DM3730/TI_DM3730.pex" />
-  </Device> 
+  </Device>
   <!--           -->
   <!-- Infineon  -->
   <!--           -->
   <!-- TLE984x -->
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9842QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x800" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="NACNAD"     BaseAddr="0x10FFFFFC" MaxSize="4" 			Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM"   LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0x8000" Loader="Devices/Infineon/TLE984x/TLE9842.FLM"       LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Data Flash" BaseAddr="0x11008000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9842_EEP.FLM"   LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9842QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x800" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="NACNAD" BaseAddr="0x10FFFFFC" MaxSize="4" Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0x8000" Loader="Devices/Infineon/TLE984x/TLE9842.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Data Flash" BaseAddr="0x11008000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9842_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9842-2QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x800" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="NACNAD"     BaseAddr="0x10FFFFFC" MaxSize="4" 			Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM"   LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0x9000" Loader="Devices/Infineon/TLE984x/TLE9842_2.FLM"     LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Data Flash" BaseAddr="0x11009000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9842_2_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9842-2QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x800" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="NACNAD" BaseAddr="0x10FFFFFC" MaxSize="4" Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0x9000" Loader="Devices/Infineon/TLE984x/TLE9842_2.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Data Flash" BaseAddr="0x11009000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9842_2_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9843QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="NACNAD"     BaseAddr="0x10FFFFFC" MaxSize="4" 			Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM"   LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xB000" Loader="Devices/Infineon/TLE984x/TLE9843.FLM"       LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100B000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9843_EEP.FLM"   LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9843QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="NACNAD" BaseAddr="0x10FFFFFC" MaxSize="4" Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xB000" Loader="Devices/Infineon/TLE984x/TLE9843.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100B000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9843_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9843-2QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="NACNAD"     BaseAddr="0x10FFFFFC" MaxSize="4" 			Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM"   LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xC000" Loader="Devices/Infineon/TLE984x/TLE9843_2.FLM"     LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100C000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9843_2_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9843-2QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="NACNAD" BaseAddr="0x10FFFFFC" MaxSize="4" Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xC000" Loader="Devices/Infineon/TLE984x/TLE9843_2.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100C000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9843_2_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9844QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="NACNAD"     BaseAddr="0x10FFFFFC" MaxSize="4" 			Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM"   LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE984x/TLE9844.FLM"       LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100F000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9844_EEP.FLM"   LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9844QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="NACNAD" BaseAddr="0x10FFFFFC" MaxSize="4" Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE984x/TLE9844.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100F000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9844_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9844-2QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="NACNAD"     BaseAddr="0x10FFFFFC" MaxSize="4" 			Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM"   LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE984x/TLE9844_2.FLM"     LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100F000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9844_2_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9844-2QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="NACNAD" BaseAddr="0x10FFFFFC" MaxSize="4" Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE984x/TLE9844_2.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100F000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9844_2_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9845QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="NACNAD"     BaseAddr="0x10FFFFFC" MaxSize="4" 			Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM"   LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xB000" Loader="Devices/Infineon/TLE984x/TLE9845.FLM"       LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100B000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9845_EEP.FLM"   LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device> 
+    <ChipInfo Vendor="Infineon" Name="TLE9845QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="NACNAD" BaseAddr="0x10FFFFFC" MaxSize="4" Loader="Devices/Infineon/TLE984x/TLE984x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xB000" Loader="Devices/Infineon/TLE984x/TLE9845.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100B000" MaxSize="0x1000" Loader="Devices/Infineon/TLE984x/TLE9845_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
   <!-- TLE986x  -->
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9861QXA20" WorkRAMAddr="0x18000000" WorkRAMSize="0xC00" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x8000" Loader="Devices/Infineon/TLE986x/TLE9861.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9861QXA20" WorkRAMAddr="0x18000000" WorkRAMSize="0xC00" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x8000" Loader="Devices/Infineon/TLE986x/TLE9861.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
-     <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9863QXW20" WorkRAMAddr="0x18000000" WorkRAMSize="0xC00" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xB000" Loader="Devices/Infineon/TLE986x/TLE9863.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  <Device>
+    <ChipInfo Vendor="Infineon" Name="TLE9863QXW20" WorkRAMAddr="0x18000000" WorkRAMSize="0xC00" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xB000" Loader="Devices/Infineon/TLE986x/TLE9863.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
-     <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9867QXA20" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE986x/TLE9867.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  <Device>
+    <ChipInfo Vendor="Infineon" Name="TLE9867QXA20" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE986x/TLE9867.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
-     <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9867QXA40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE986x/TLE9867.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  <Device>
+    <ChipInfo Vendor="Infineon" Name="TLE9867QXA40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE986x/TLE9867.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
-     <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9867QXW40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE986x/TLE9867.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  <Device>
+    <ChipInfo Vendor="Infineon" Name="TLE9867QXW40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE986x/TLE9867.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
-     <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9868QXB20" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE986x/TLE9869.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  <Device>
+    <ChipInfo Vendor="Infineon" Name="TLE9868QXB20" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE986x/TLE9869.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
-     <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9869QXA20" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE986x/TLE9869.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  <Device>
+    <ChipInfo Vendor="Infineon" Name="TLE9869QXA20" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE986x/TLE9869.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
-       <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9869QXB20" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE986x/TLE9869.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+  <Device>
+    <ChipInfo Vendor="Infineon" Name="TLE9869QXB20" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE986x/TLE9869.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <!-- TLE987x  -->
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9871QXA20" WorkRAMAddr="0x18000000" WorkRAMSize="0xC00" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x8000" Loader="Devices/Infineon/TLE987x/TLE9871.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9871QXA20" WorkRAMAddr="0x18000000" WorkRAMSize="0xC00" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x8000" Loader="Devices/Infineon/TLE987x/TLE9871.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9873QXW40" WorkRAMAddr="0x18000000" WorkRAMSize="0x0C00" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xB000" Loader="Devices/Infineon/TLE987x/TLE9873.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9873QXW40" WorkRAMAddr="0x18000000" WorkRAMSize="0x0C00" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xB000" Loader="Devices/Infineon/TLE987x/TLE9873.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9873QXH40" WorkRAMAddr="0x18000000" WorkRAMSize="0x0C00" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xB000" Loader="Devices/Infineon/TLE987x/TLE9873.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9873QXH40" WorkRAMAddr="0x18000000" WorkRAMSize="0x0C00" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xB000" Loader="Devices/Infineon/TLE987x/TLE9873.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9877QXA20" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE987x/TLE9877.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9877QXA20" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE987x/TLE9877.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9877QXA40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE987x/TLE9877.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9877QXA40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE987x/TLE9877.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9877QXW40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE987x/TLE9877.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9877QXW40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE987x/TLE9877.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9877QXH40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE987x/TLE9877.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device> 
-  <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9879QXA20"  WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE987x/TLE9879.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device> 
-  <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9879QXA40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE987x/TLE9879.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>  
-  <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9879-2QXA40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE987x/TLE9879.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>  
-  <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9879QXW40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE987x/TLE9879.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9877QXH40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE987x/TLE9877.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9879QXH40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0"/>
-    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE987x/TLE9879.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9879QXA20" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE987x/TLE9879.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Infineon" Name="TLE9879QXA40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE987x/TLE9879.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Infineon" Name="TLE9879-2QXA40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE987x/TLE9879.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Infineon" Name="TLE9879QXW40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE987x/TLE9879.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Infineon" Name="TLE9879QXH40" WorkRAMAddr="0x18000000" WorkRAMSize="0x1800" Core="JLINK_CORE_CORTEX_M3_R2P0" />
+    <FlashBankInfo Name="Int. Flash" BaseAddr="0x11000000" MaxSize="0x1F000" Loader="Devices/Infineon/TLE987x/TLE9879.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <!-- TLE985x -->
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9851QXW" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="NACNAD"     BaseAddr="0x10FFFFFC" MaxSize="4" 			Loader="Devices/Infineon/TLE985x/TLE985x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE985x/TLE9851.FLM"     LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100F000" MaxSize="0x1000" Loader="Devices/Infineon/TLE985x/TLE9851_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9851QXW" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="NACNAD" BaseAddr="0x10FFFFFC" MaxSize="4" Loader="Devices/Infineon/TLE985x/TLE985x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE985x/TLE9851.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100F000" MaxSize="0x1000" Loader="Devices/Infineon/TLE985x/TLE9851_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9853QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="NACNAD"     BaseAddr="0x10FFFFFC" MaxSize="4" 			Loader="Devices/Infineon/TLE985x/TLE985x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xB000" Loader="Devices/Infineon/TLE985x/TLE9853.FLM"     LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100B000" MaxSize="0x1000" Loader="Devices/Infineon/TLE985x/TLE9853_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9853QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="NACNAD" BaseAddr="0x10FFFFFC" MaxSize="4" Loader="Devices/Infineon/TLE985x/TLE985x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xB000" Loader="Devices/Infineon/TLE985x/TLE9853.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100B000" MaxSize="0x1000" Loader="Devices/Infineon/TLE985x/TLE9853_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9854QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="NACNAD"     BaseAddr="0x10FFFFFC" MaxSize="4" 			Loader="Devices/Infineon/TLE985x/TLE985x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE985x/TLE9854.FLM"     LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100F000" MaxSize="0x1000" Loader="Devices/Infineon/TLE985x/TLE9854_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9854QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="NACNAD" BaseAddr="0x10FFFFFC" MaxSize="4" Loader="Devices/Infineon/TLE985x/TLE985x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0xF000" Loader="Devices/Infineon/TLE985x/TLE9854.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Data Flash" BaseAddr="0x1100F000" MaxSize="0x1000" Loader="Devices/Infineon/TLE985x/TLE9854_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Infineon" Name="TLE9855QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0"/>
-    <FlashBankInfo Name="NACNAD"     BaseAddr="0x10FFFFFC" MaxSize="4" 			 Loader="Devices/Infineon/TLE985x/TLE985x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0x17000" Loader="Devices/Infineon/TLE985x/TLE9855.FLM"     LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Data Flash" BaseAddr="0x11017000" MaxSize="0x1000"  Loader="Devices/Infineon/TLE985x/TLE9855_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Infineon" Name="TLE9855QX" WorkRAMAddr="0x18000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0" />
+    <FlashBankInfo Name="NACNAD" BaseAddr="0x10FFFFFC" MaxSize="4" Loader="Devices/Infineon/TLE985x/TLE985x_OPT.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Code Flash" BaseAddr="0x11000000" MaxSize="0x17000" Loader="Devices/Infineon/TLE985x/TLE9855.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Data Flash" BaseAddr="0x11017000" MaxSize="0x1000" Loader="Devices/Infineon/TLE985x/TLE9855_EEP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <!--                      -->
   <!-- Qorvo - GP570 series -->
   <!--                      -->
   <Device>
-   <ChipInfo Vendor="QORVO" Name="GP570NKDG" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
+    <ChipInfo Vendor="QORVO" Name="GP570NKDG" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
   </Device>
   <Device>
-   <ChipInfo Vendor="QORVO" Name="GP570NMDG" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
+    <ChipInfo Vendor="QORVO" Name="GP570NMDG" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
   </Device>
   <Device>
-   <ChipInfo Vendor="QORVO" Name="GP570NMEG" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
+    <ChipInfo Vendor="QORVO" Name="GP570NMEG" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
   </Device>
   <Device>
-   <ChipInfo Vendor="QORVO" Name="GP870NKCG" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
+    <ChipInfo Vendor="QORVO" Name="GP870NKCG" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
   </Device>
   <Device>
-   <ChipInfo Vendor="QORVO" Name="GP870NMDG" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
+    <ChipInfo Vendor="QORVO" Name="GP870NMDG" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
   </Device>
   <Device>
-   <ChipInfo Vendor="QORVO" Name="GP870NMEG" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
+    <ChipInfo Vendor="QORVO" Name="GP870NMEG" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
   </Device>
   <Device>
-   <ChipInfo Vendor="QORVO" Name="QPG6095"   Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
+    <ChipInfo Vendor="QORVO" Name="QPG6095" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/Qorvo/GPxxx/GPxxx.pex" />
   </Device>
   <!--         -->
   <!-- Cypress -->
   <!--         -->
   <Device>
     <ChipInfo Vendor="Cypress" Name="CY8C6xx6_CM0p" JLinkScriptFile="Devices/Cypress/PSoC6/CY8C6xxx_CM0p.JLinkScript" WorkRAMAddr="0x08002400" WorkRAMSize="0x80000" Core="JLINK_CORE_CORTEX_M0" />
-    <FlashBankInfo Name="FLASH  (Main)"      BaseAddr="0x10000000" MaxSize="0x00080000" Loader="Devices/Cypress/PSoC6/CY8C6xx6.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />     
-    <FlashBankInfo Name="WFLASH (Work)"      BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: User Data"  BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: NAR"        BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="FLASH  (Main)" BaseAddr="0x10000000" MaxSize="0x00080000" Loader="Devices/Cypress/PSoC6/CY8C6xx6.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="WFLASH (Work)" BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: User Data" BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: NAR" BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
     <FlashBankInfo Name="SFLASH: Public Key" BaseAddr="0x16005A00" MaxSize="0x00000C00" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: TOC2"       BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SMIF"               BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: TOC2" BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SMIF" BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
   <Device>
     <ChipInfo Vendor="Cypress" Name="CY8C6xx6_CM0p_sect256KB" JLinkScriptFile="Devices/Cypress/PSoC6/CY8C6xxx_CM0p.JLinkScript" WorkRAMAddr="0x08002400" WorkRAMSize="0x80000" Core="JLINK_CORE_CORTEX_M0" />
-    <FlashBankInfo Name="FLASH  (Main)"      BaseAddr="0x10000000" MaxSize="0x00080000" Loader="Devices/Cypress/PSoC6/CY8C6xx6_sect256KB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />    
-    <FlashBankInfo Name="WFLASH (Work)"      BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: User Data"  BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: NAR"        BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="FLASH  (Main)" BaseAddr="0x10000000" MaxSize="0x00080000" Loader="Devices/Cypress/PSoC6/CY8C6xx6_sect256KB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="WFLASH (Work)" BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: User Data" BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: NAR" BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
     <FlashBankInfo Name="SFLASH: Public Key" BaseAddr="0x16005A00" MaxSize="0x00000C00" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: TOC2"       BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SMIF"               BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: TOC2" BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SMIF" BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
   <Device>
     <ChipInfo Vendor="Cypress" Name="CY8C6xx6_CM0p_tm" JLinkScriptFile="Devices/Cypress/PSoC6/CY8C6xxx_CM0p_tm_xA.JLinkScript" WorkRAMAddr="0x08002400" WorkRAMSize="0x80000" Core="JLINK_CORE_CORTEX_M0" />
-    <FlashBankInfo Name="FLASH  (Main)"      BaseAddr="0x10000000" MaxSize="0x00080000" Loader="Devices/Cypress/PSoC6/CY8C6xx6.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />    
-    <FlashBankInfo Name="WFLASH (Work)"      BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: User Data"  BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: NAR"        BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="FLASH  (Main)" BaseAddr="0x10000000" MaxSize="0x00080000" Loader="Devices/Cypress/PSoC6/CY8C6xx6.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="WFLASH (Work)" BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: User Data" BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: NAR" BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
     <FlashBankInfo Name="SFLASH: Public Key" BaseAddr="0x16005A00" MaxSize="0x00000C00" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: TOC2"       BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SMIF"               BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: TOC2" BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SMIF" BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
   <Device>
     <ChipInfo Vendor="Cypress" Name="CY8C6xx6_CM0p_sect256KB_tm" JLinkScriptFile="Devices/Cypress/PSoC6/CY8C6xxx_CM0p_tm_xA.JLinkScript" WorkRAMAddr="0x08002400" WorkRAMSize="0x80000" Core="JLINK_CORE_CORTEX_M0" />
-    <FlashBankInfo Name="FLASH  (Main)"      BaseAddr="0x10000000" MaxSize="0x00080000" Loader="Devices/Cypress/PSoC6/CY8C6xx6_sect256KB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />    
-    <FlashBankInfo Name="WFLASH (Work)"      BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: User Data"  BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: NAR"        BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="FLASH  (Main)" BaseAddr="0x10000000" MaxSize="0x00080000" Loader="Devices/Cypress/PSoC6/CY8C6xx6_sect256KB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="WFLASH (Work)" BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: User Data" BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: NAR" BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
     <FlashBankInfo Name="SFLASH: Public Key" BaseAddr="0x16005A00" MaxSize="0x00000C00" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: TOC2"       BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SMIF"               BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: TOC2" BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SMIF" BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
   <Device>
     <ChipInfo Vendor="Cypress" Name="CY8C6xx6_CM4" JLinkScriptFile="Devices/Cypress/PSoC6/CY8C6xxx_CM4.JLinkScript" WorkRAMAddr="0x08002400" WorkRAMSize="0x80000" Core="JLINK_CORE_CORTEX_M4" />
-    <FlashBankInfo Name="FLASH  (Main)"      BaseAddr="0x10000000" MaxSize="0x00080000" Loader="Devices/Cypress/PSoC6/CY8C6xx6.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="WFLASH (Work)"      BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: User Data"  BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: NAR"        BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="FLASH  (Main)" BaseAddr="0x10000000" MaxSize="0x00080000" Loader="Devices/Cypress/PSoC6/CY8C6xx6.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="WFLASH (Work)" BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: User Data" BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: NAR" BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
     <FlashBankInfo Name="SFLASH: Public Key" BaseAddr="0x16005A00" MaxSize="0x00000C00" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: TOC2"       BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SMIF"               BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: TOC2" BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SMIF" BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
   <Device>
     <ChipInfo Vendor="Cypress" Name="CY8C6xx6_CM4_sect256KB" JLinkScriptFile="Devices/Cypress/PSoC6/CY8C6xxx_CM4.JLinkScript" WorkRAMAddr="0x08002400" WorkRAMSize="0x80000" Core="JLINK_CORE_CORTEX_M4" />
-    <FlashBankInfo Name="FLASH  (Main)"      BaseAddr="0x10000000" MaxSize="0x00080000" Loader="Devices/Cypress/PSoC6/CY8C6xx6_sect256KB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="WFLASH (Work)"      BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: User Data"  BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: NAR"        BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="FLASH  (Main)" BaseAddr="0x10000000" MaxSize="0x00080000" Loader="Devices/Cypress/PSoC6/CY8C6xx6_sect256KB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="WFLASH (Work)" BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: User Data" BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: NAR" BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
     <FlashBankInfo Name="SFLASH: Public Key" BaseAddr="0x16005A00" MaxSize="0x00000C00" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: TOC2"       BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SMIF"               BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: TOC2" BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SMIF" BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
   <Device>
     <ChipInfo Vendor="Cypress" Name="CY8C6xx7_CM0p" JLinkScriptFile="Devices/Cypress/PSoC6/CY8C6xxx_CM0p.JLinkScript" WorkRAMAddr="0x08002400" WorkRAMSize="0x80000" Core="JLINK_CORE_CORTEX_M0" />
-    <FlashBankInfo Name="FLASH  (Main)"      BaseAddr="0x10000000" MaxSize="0x00100000" Loader="Devices/Cypress/PSoC6/CY8C6xx7.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="WFLASH (Work)"      BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: User Data"  BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: NAR"        BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="FLASH  (Main)" BaseAddr="0x10000000" MaxSize="0x00100000" Loader="Devices/Cypress/PSoC6/CY8C6xx7.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="WFLASH (Work)" BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: User Data" BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: NAR" BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
     <FlashBankInfo Name="SFLASH: Public Key" BaseAddr="0x16005A00" MaxSize="0x00000C00" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: TOC2"       BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SMIF"               BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: TOC2" BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SMIF" BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
   <Device>
     <ChipInfo Vendor="Cypress" Name="CY8C6xx7_CM0p_sect256KB" JLinkScriptFile="Devices/Cypress/PSoC6/CY8C6xxx_CM0p.JLinkScript" WorkRAMAddr="0x08002400" WorkRAMSize="0x80000" Core="JLINK_CORE_CORTEX_M0" />
-    <FlashBankInfo Name="FLASH  (Main)"      BaseAddr="0x10000000" MaxSize="0x00100000" Loader="Devices/Cypress/PSoC6/CY8C6xx7_sect256KB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="WFLASH (Work)"      BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: User Data"  BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: NAR"        BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="FLASH  (Main)" BaseAddr="0x10000000" MaxSize="0x00100000" Loader="Devices/Cypress/PSoC6/CY8C6xx7_sect256KB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="WFLASH (Work)" BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: User Data" BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: NAR" BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
     <FlashBankInfo Name="SFLASH: Public Key" BaseAddr="0x16005A00" MaxSize="0x00000C00" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: TOC2"       BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SMIF"               BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: TOC2" BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SMIF" BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
   <Device>
     <ChipInfo Vendor="Cypress" Name="CY8C6xx7_CM0p_tm" JLinkScriptFile="Devices/Cypress/PSoC6/CY8C6xxx_CM0p_tm_xA.JLinkScript" WorkRAMAddr="0x08002400" WorkRAMSize="0x80000" Core="JLINK_CORE_CORTEX_M0" />
-    <FlashBankInfo Name="FLASH  (Main)"      BaseAddr="0x10000000" MaxSize="0x00100000" Loader="Devices/Cypress/PSoC6/CY8C6xx7.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="WFLASH (Work)"      BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: User Data"  BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: NAR"        BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="FLASH  (Main)" BaseAddr="0x10000000" MaxSize="0x00100000" Loader="Devices/Cypress/PSoC6/CY8C6xx7.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="WFLASH (Work)" BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: User Data" BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: NAR" BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
     <FlashBankInfo Name="SFLASH: Public Key" BaseAddr="0x16005A00" MaxSize="0x00000C00" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: TOC2"       BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SMIF"               BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: TOC2" BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SMIF" BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
   <Device>
     <ChipInfo Vendor="Cypress" Name="CY8C6xx7_CM0p_sect256KB_tm" JLinkScriptFile="Devices/Cypress/PSoC6/CY8C6xxx_CM0p_tm_xA.JLinkScript" WorkRAMAddr="0x08002400" WorkRAMSize="0x80000" Core="JLINK_CORE_CORTEX_M0" />
-    <FlashBankInfo Name="FLASH  (Main)"      BaseAddr="0x10000000" MaxSize="0x00100000" Loader="Devices/Cypress/PSoC6/CY8C6xx7_sect256KB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="WFLASH (Work)"      BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: User Data"  BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: NAR"        BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="FLASH  (Main)" BaseAddr="0x10000000" MaxSize="0x00100000" Loader="Devices/Cypress/PSoC6/CY8C6xx7_sect256KB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="WFLASH (Work)" BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: User Data" BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: NAR" BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
     <FlashBankInfo Name="SFLASH: Public Key" BaseAddr="0x16005A00" MaxSize="0x00000C00" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: TOC2"       BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SMIF"               BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: TOC2" BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SMIF" BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
   <Device>
     <ChipInfo Vendor="Cypress" Name="CY8C6xx7_CM4" JLinkScriptFile="Devices/Cypress/PSoC6/CY8C6xxx_CM4.JLinkScript" WorkRAMAddr="0x08026400" WorkRAMSize="0x80000" Core="JLINK_CORE_CORTEX_M4" />
-    <FlashBankInfo Name="FLASH  (Main)"      BaseAddr="0x10000000" MaxSize="0x00100000" Loader="Devices/Cypress/PSoC6/CY8C6xx7.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="WFLASH (Work)"      BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: User Data"  BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: NAR"        BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="FLASH  (Main)" BaseAddr="0x10000000" MaxSize="0x00100000" Loader="Devices/Cypress/PSoC6/CY8C6xx7.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="WFLASH (Work)" BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: User Data" BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: NAR" BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
     <FlashBankInfo Name="SFLASH: Public Key" BaseAddr="0x16005A00" MaxSize="0x00000C00" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: TOC2"       BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SMIF"               BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-  </Device>     
+    <FlashBankInfo Name="SFLASH: TOC2" BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SMIF" BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
   <Device>
     <ChipInfo Vendor="Cypress" Name="CY8C6xx7_CM4_sect256KB" JLinkScriptFile="Devices/Cypress/PSoC6/CY8C6xxx_CM4.JLinkScript" WorkRAMAddr="0x08026400" WorkRAMSize="0x80000" Core="JLINK_CORE_CORTEX_M4" />
-    <FlashBankInfo Name="FLASH  (Main)"      BaseAddr="0x10000000" MaxSize="0x00100000" Loader="Devices/Cypress/PSoC6/CY8C6xx7_sect256KB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="WFLASH (Work)"      BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: User Data"  BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: NAR"        BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="FLASH  (Main)" BaseAddr="0x10000000" MaxSize="0x00100000" Loader="Devices/Cypress/PSoC6/CY8C6xx7_sect256KB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="WFLASH (Work)" BaseAddr="0x14000000" MaxSize="0x00008000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_WFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: User Data" BaseAddr="0x16000800" MaxSize="0x00000800" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: NAR" BaseAddr="0x16001A00" MaxSize="0x00000200" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
     <FlashBankInfo Name="SFLASH: Public Key" BaseAddr="0x16005A00" MaxSize="0x00000C00" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SFLASH: TOC2"       BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
-    <FlashBankInfo Name="SMIF"               BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SFLASH: TOC2" BaseAddr="0x16007C00" MaxSize="0x00000400" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SFLASH.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SMIF" BaseAddr="0x18000000" MaxSize="0x08000000" Loader="Devices/Cypress/PSoC6/CY8C6xxx_SMIF.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
   <!--                  -->
   <!-- ON Semiconductor -->
   <!--                  -->
   <Device>
-    <ChipInfo Vendor="ON Semiconductor" Name="RSL10" Core="JLINK_CORE_CORTEX_M3_R2P1" WorkRAMAddr="0x20000000" WorkRAMSize="0x6000" JLinkScriptFile="Devices/ONSemiconductor/RSL10/ONSemiconductor_RSL10.JLinkScript"/>
-    <FlashBankInfo Name="Main Flash" BaseAddr="0x00100000" MaxSize="0x60000" Loader="Devices/ONSemiconductor/RSL10/ONSemiconductor_RSL10_Main_Flash.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="NVR Flash"  BaseAddr="0x00080000" MaxSize="0x1800"  Loader="Devices/ONSemiconductor/RSL10/ONSemiconductor_RSL10_NVR_Flash.elf"  LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ON Semiconductor" Name="RSL10" Core="JLINK_CORE_CORTEX_M3_R2P1" WorkRAMAddr="0x20000000" WorkRAMSize="0x6000" JLinkScriptFile="Devices/ONSemiconductor/RSL10/ONSemiconductor_RSL10.JLinkScript" />
+    <FlashBankInfo Name="Main Flash" BaseAddr="0x00100000" MaxSize="0x60000" Loader="Devices/ONSemiconductor/RSL10/ONSemiconductor_RSL10_Main_Flash.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="NVR Flash" BaseAddr="0x00080000" MaxSize="0x1800" Loader="Devices/ONSemiconductor/RSL10/ONSemiconductor_RSL10_NVR_Flash.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <!--        -->
   <!-- SiFive -->
@@ -671,76 +671,76 @@
   <!-- STM32F4 -->
   <!--         -->
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469AE" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469AE" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469AG" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469AG" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469AI" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469AI" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469BE" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469BE" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469BG" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469BG" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469BI" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469BI" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469IE" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469IE" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469IG" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469IG" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469II" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469II" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469NE" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469NE" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469NG" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469NG" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469NI" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469NI" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469VE" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469VE" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469VG" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469VG" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469VI" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469VI" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469ZE" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469ZE" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469ZG" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469ZG" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <Device>
-   <ChipInfo Vendor="ST" Name="STM32F469ZI" Core="JLINK_CORE_CORTEX_M4" />
-   <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <ChipInfo Vendor="ST" Name="STM32F469ZI" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="QSPI Flash" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32F4/ST_STM32F469I_Disco_QSPI.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <!--         -->
   <!-- STM32F7 -->
@@ -1010,88 +1010,84 @@
   <!--       -->
   <Device>
     <ChipInfo Vendor="Zilog" Name="Z32F0642" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x2000" />
-    <FlashBankInfo Name="Internal Flash" BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/Zilog/Z32F0642/Z32F0642.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>  
+    <FlashBankInfo Name="Internal Flash" BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/Zilog/Z32F0642/Z32F0642.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
   <!--                -->
   <!-- Analog Devices -->
   <!--                -->
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM411CBCZ-AF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM411CBCZ-AF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM411CBCZ-BF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM411CBCZ-BF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM412CSWZ-AF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM412CSWZ-AF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM412CBCZ-BF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM412CBCZ-BF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM413CSWZ-BF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM413CSWZ-BF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM413CSWZ-CF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM413CSWZ-CF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM416CSWZ-BF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM416CSWZ-BF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM416CSWZ-CF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM416CSWZ-CF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM417CSWZ-CF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM417CSWZ-CF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM417CSWZ-DF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x80000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x80000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM417CSWZ-DF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x80000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x80000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM418CBCZ-BF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM418CBCZ-BF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x20000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x20000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM418CBCZ-CF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM418CBCZ-CF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM419CBCZ-CF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM419CBCZ-CF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x40000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM419CBCZ-DF_M4"  JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x80000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x80000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
+    <ChipInfo Vendor="Analog Devices" Name="ADSP-CM419CBCZ-DF_M4" JLinkScriptFile="Devices/AnalogDevices/ADSP-CM41/CM41x_M4.JLinkScript" WorkRAMAddr="0x10000000" WorkRAMSize="0x28000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block A" BaseAddr="0x11000000" MaxSize="0x80000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashA_512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Block B" BaseAddr="0x11080000" MaxSize="0x80000" Loader="Devices/AnalogDevices/ADSP-CM41/CM41x_FlashB_512.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="Analog Devices" Name="ADuCM4050"  WorkRAMAddr="0x10000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M4"/>
-    <FlashBankInfo Name="Flash Block" BaseAddr="0x0" MaxSize="0x80000" Loader="Devices/AnalogDevices/ADUCM4x50/ADuCM4x50.axf" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1"/>
-  </Device>
-  <Device>
-    <ChipInfo Vendor="EASTSOFT" Name="ES32F0271" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x00002000" Aliases="" />
-    <FlashBankInfo Name="Internal Flash" BaseAddr="0x00000000" MaxSize="0x00020000" Loader="Devices/Eastsoft/ES32F0271.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <ChipInfo Vendor="Analog Devices" Name="ADuCM4050" WorkRAMAddr="0x10000000" WorkRAMSize="0x8000" Core="JLINK_CORE_CORTEX_M4" />
+    <FlashBankInfo Name="Flash Block" BaseAddr="0x0" MaxSize="0x80000" Loader="Devices/AnalogDevices/ADUCM4x50/ADuCM4x50.axf" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
     <ChipInfo Vendor="ArteryTek" Name="AT32F403ZCT6" WorkRAMAddr="0x20000000" WorkRAMSize="0x038000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
@@ -1537,6 +1533,10 @@
     <FlashBankInfo Name="Flash Bank1_2" BaseAddr="0x08000000" MaxSize="0x00100000" Loader="Devices/ArteryTek/AT32FLM/AT32F403A_1024.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F403AVGW" WorkRAMAddr="0x20000000" WorkRAMSize="0x038000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1_2" BaseAddr="0x08000000" MaxSize="0x00100000" Loader="Devices/ArteryTek/AT32FLM/AT32F403A_1024.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
     <ChipInfo Vendor="ArteryTek" Name="AT32F403AUSD" WorkRAMAddr="0x20000000" WorkRAMSize="0x038000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash USD" BaseAddr="0x1FFFF800" MaxSize="0x30" Loader="Devices/ArteryTek/AT32FLM/AT32F403A_USD.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
@@ -1809,6 +1809,10 @@
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F421_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F4212C8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F421_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
     <ChipInfo Vendor="ArteryTek" Name="AT32F421C8W" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F421_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
@@ -2032,184 +2036,184 @@
     <FlashBankInfo Name="Flash USD" BaseAddr="0x1FFFC000" MaxSize="0x1000" Loader="Devices/ArteryTek/AT32FLM/AT32F437_USD_4096.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425R8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425R8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425R6T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425R6T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425R8T7-7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425R8T7-7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425R6T7-7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425R6T7-7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425C8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425C8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425C6T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425C6T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425C8U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425C8U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425C6U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425C6U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425K8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425K8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425K6T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425K6T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425K8U7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425K8U7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425K6U7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425K6U7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425F8P7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425F8P7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425F6P7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425F6P7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425G8U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425G8U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425G6U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425G6U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425_APMODE_64" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425_APMODE_64" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
     <FlashBankInfo Name="Flash Boot Memory" BaseAddr="0x1FFFE400" MaxSize="0x00001000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_BOOTMEM_AP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425_APMODE_32" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425_APMODE_32" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
     <FlashBankInfo Name="Flash Boot Memory" BaseAddr="0x1FFFE400" MaxSize="0x00001000" Loader="Devices/ArteryTek/AT32FLM/AT32F425_BOOTMEM_AP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32F425USD" WorkRAMAddr="0x20000000" WorkRAMSize="0x004000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32F425USD" WorkRAMAddr="0x20000000" WorkRAMSize="0x005000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash USD" BaseAddr="0x1FFFF800" MaxSize="0x200" Loader="Devices/ArteryTek/AT32FLM/AT32F425_USD.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021C8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021C8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021C6T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021C6T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021C4T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021C4T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00004000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_16.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021K8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021K8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021K6T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021K6T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021K4T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021K4T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00004000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_16.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021K8U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021K8U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021K6U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021K6U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021K4U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021K4U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00004000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_16.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021K8U7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021K8U7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021K6U7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021K6U7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021K4U7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021K4U7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00004000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_16.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021F8U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021F8U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021F6U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021F6U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021F4U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021F4U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00004000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_16.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021F8P7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021F8P7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021F6P7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021F6P7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021F4P7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021F4P7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00004000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_16.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021G8U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021G8U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021G6U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021G6U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021G4U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021G4U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00004000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_16.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021_APMODE_64" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021_APMODE_64" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
     <FlashBankInfo Name="Flash Boot Memory" BaseAddr="0x1FFFE400" MaxSize="0x00001000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_BOOTMEM_AP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021_APMODE_32" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021_APMODE_32" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00008000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
     <FlashBankInfo Name="Flash Boot Memory" BaseAddr="0x1FFFE400" MaxSize="0x00001000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_BOOTMEM_AP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021_APMODE_16" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021_APMODE_16" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00004000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_16.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
     <FlashBankInfo Name="Flash Boot Memory" BaseAddr="0x1FFFE400" MaxSize="0x00001000" Loader="Devices/ArteryTek/AT32FLM/AT32L021_BOOTMEM_AP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
-    <ChipInfo Vendor="ArteryTek" Name="AT32L021USD" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <ChipInfo Vendor="ArteryTek" Name="AT32L021USD" WorkRAMAddr="0x20000000" WorkRAMSize="0x002000" Core="JLINK_CORE_CORTEX_M0" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash USD" BaseAddr="0x1FFFF800" MaxSize="0x200" Loader="Devices/ArteryTek/AT32FLM/AT32L021_USD.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
   <Device>
@@ -2234,5 +2238,162 @@
   <Device>
     <ChipInfo Vendor="ArteryTek" Name="AT32WB415USD" WorkRAMAddr="0x20000000" WorkRAMSize="0x008000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
     <FlashBankInfo Name="Flash USD" BaseAddr="0x1FFFF800" MaxSize="0x400" Loader="Devices/ArteryTek/AT32FLM/AT32WB415_USD.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423VCT7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423VBT7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423V8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x008000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423RCT7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423RBT7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423R8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x008000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423RCT7-7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423RBT7-7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423R8T7-7" WorkRAMAddr="0x20000000" WorkRAMSize="0x008000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423CCT7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423CBT7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423C8T7" WorkRAMAddr="0x20000000" WorkRAMSize="0x008000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423CCU7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423CBU7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423C8U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x008000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423TCU7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423TBU7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423T8U7" WorkRAMAddr="0x20000000" WorkRAMSize="0x008000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423KCU7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423KBU7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423K8U7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x008000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423_APMODE_64" WorkRAMAddr="0x20000000" WorkRAMSize="0x008000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00010000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_64.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Boot Memory" BaseAddr="0x1FFFA400" MaxSize="0x00005000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_BOOTMEM_AP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423_APMODE_128" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Boot Memory" BaseAddr="0x1FFFA400" MaxSize="0x00005000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_BOOTMEM_AP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423_APMODE_256" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Boot Memory" BaseAddr="0x1FFFA400" MaxSize="0x00005000" Loader="Devices/ArteryTek/AT32FLM/AT32F423_BOOTMEM_AP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F423USD" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash USD" BaseAddr="0x1FFFF800" MaxSize="0x200" Loader="Devices/ArteryTek/AT32FLM/AT32F423_USD.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F405RCT7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F405RBT7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F405RCT7-7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F405RBT7-7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F405CCT7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F405CBT7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F405CCU7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F405CBU7" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F405KCU7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F405KBU7-4" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F405_APMODE_128" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00020000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_128.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Boot Memory" BaseAddr="0x1FFFA400" MaxSize="0x00005000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_BOOTMEM_AP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F405_APMODE_256" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash Bank1" BaseAddr="0x08000000" MaxSize="0x00040000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_256.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+    <FlashBankInfo Name="Flash Boot Memory" BaseAddr="0x1FFFA400" MaxSize="0x00005000" Loader="Devices/ArteryTek/AT32FLM/AT32F405_BOOTMEM_AP.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="ArteryTek" Name="AT32F405USD" WorkRAMAddr="0x20000000" WorkRAMSize="0x00C000" Core="JLINK_CORE_CORTEX_M4" JLinkScriptFile="Devices/ArteryTek/AT32FLM/AT32F4xx.JLinkScript" />
+    <FlashBankInfo Name="Flash USD" BaseAddr="0x1FFFF800" MaxSize="0x200" Loader="Devices/ArteryTek/AT32FLM/AT32F405_USD.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" AlwaysPresent="1" />
   </Device>
 </DataBase>
